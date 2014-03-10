@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong) UITextField *name;
+@property (nonatomic,strong) UITextField *pwd;
+
+
 @end
